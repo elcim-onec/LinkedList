@@ -18,7 +18,7 @@ public class countWords {
         //Remove duplicate values
         uniqueList.removeDuplicate();
 
-        //Take user actions 1 for 'Listing', 2 for 'Total word count', 3 for 'Most occurred word' and 0 for 'Exit'
+        //Take user actions: Press 1 for 'Listing', 2 for 'Total word count', 3 for 'Most occurred word' and 0 for 'Exit'
         originalList.userActions(uniqueList, originalList);
     }
 
